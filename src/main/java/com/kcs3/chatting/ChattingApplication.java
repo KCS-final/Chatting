@@ -1,4 +1,4 @@
-package com.kcs3.panda.chatting;
+package com.kcs3.chatting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
