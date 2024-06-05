@@ -75,7 +75,7 @@ tasks.named('test') {
 
 bootJar {
 	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-	mainClass = 'com.kcs3.chatting.Application'ChattingApplication
+	mainClass = 'com.kcs3.chatting.ChattingApplication
 }
 
 jar {
