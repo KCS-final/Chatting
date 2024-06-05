@@ -65,7 +65,7 @@ jobs:
       run: |
         git clone https://leeinhong9512:${{ secrets.LOGIN_GITHUB_TOKEN }}@github.com/KCS-final/Chatting-argoCD.git
         cd Chatting-argoCD
-        sed -i 's|image: leeinhong9512/panda-auction:.*|image: leeinhong9512/panda-chatting:${{ github.sha }}|' cd.yaml
+        sed -i 's|image: leeinhong9512/panda-chatting:.*|image: leeinhong9512/panda-chatting:${{ github.sha }}|' cd.yaml
         git config --global user.name InhongLee95
         git config --global user.email leeinhong9512@gmail.com
         git add cd.yaml
